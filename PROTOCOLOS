@@ -1,0 +1,23 @@
+start recepcion - confirmacion de datos
+
+actor AC1 pluviometro
+actor AC2 piranometro
+actor AC3 campo-electrico
+actor AC4 radar-perfilador-de-vientos
+actor AC5 ceilometro
+
+
+agent AG1 Receptor
+
+box loop
+	percept AC1 AG1 cantidad de agua
+	percept AC2 AG1 radiacion solar
+	percept AC3 AG1 actividad de rayos
+	percept AC4 AG1 velocidad-de-vientos
+	percept AC5 AG1 concentracion-de-aerosoles-en-la-atmosfera
+	action AG1 AC5 confirmacion-de-recepcion
+end loop
+finish
+
+start Protocolo Recepcion - Confirmacion de datos
+
