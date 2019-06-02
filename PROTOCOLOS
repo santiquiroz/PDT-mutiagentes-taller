@@ -37,3 +37,18 @@ percept AC2 AG1 solicitar datos organizacion
 action AG1 AC2 entregar datos organizacion
 
 finish
+
+
+start verificacion datos
+
+actor AC1 Analista
+
+agent AG1 Agente analitico
+
+percept AC1 AG1 Ajuste
+action mensaje ajuste OK
+
+message AG1 AG2 Datos verificados
+
+finish
+
