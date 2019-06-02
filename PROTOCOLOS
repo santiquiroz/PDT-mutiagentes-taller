@@ -19,5 +19,21 @@ box loop
 end loop
 finish
 
-start Protocolo Recepcion - Confirmacion de datos
+start solicitud - entrega de datos
 
+actor AC1 Usuario
+actor AC2 Organizacion
+
+agent AG1 Agente facilitador
+
+percept AC1 AG1 solicitar datos
+action AG1 AC1 entregar datos
+
+percept AC1 AG1 solicitar datos usuario
+action AG1 AC1 entregar datos usuario
+
+
+percept AC2 AG1 solicitar datos organizacion
+action AG1 AC2 entregar datos organizacion
+
+finish
