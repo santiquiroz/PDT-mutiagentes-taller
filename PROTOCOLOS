@@ -53,7 +53,6 @@ action AG1 AC1 mensaje ajuste OK
 message AG1 AG2 Datos verificados
 message AG1 AG3 Datos verificados
 
-
 finish
 
 start recomendar
@@ -62,8 +61,8 @@ actor AC1 usuario
 
 agent AG1 Agente recomendador
 
-percept Preferencias
-action entregar recomendaciones
+percept AC1 AG1 Preferencias
+action AG1 AC1 entregar recomendaciones
 
 finish
 

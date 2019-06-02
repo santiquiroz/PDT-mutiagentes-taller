@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- backup@2019/06/02/17:08:48 -->
+<!-- backup@2019/06/02/17:13:48 -->
 <Project PDTVersion="0.3.2">
 <RelationPool IMemento.internal.id="6922" PoolType="5">
 <Relation DST="35841" IMemento.internal.id="119557" Prominence="0" RelationType="-2147483648" SRC="116737"/>
@@ -298,7 +298,7 @@
 <Look Height="-1" Width="-1" XCoordinate="138" YCoordinate="493"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="72706" MotherDiagram="1283" WrappedEntity="72193">
-<Look Height="-1" Width="-1" XCoordinate="734" YCoordinate="785"/>
+<Look Height="-1" Width="-1" XCoordinate="1061" YCoordinate="744"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="23298" MotherDiagram="1283" WrappedEntity="22785">
 <Look Height="-1" Width="-1" XCoordinate="235" YCoordinate="479"/>
@@ -367,7 +367,7 @@
 <Look Height="-1" Width="-1" XCoordinate="340" YCoordinate="608"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="102914" MotherDiagram="1283" WrappedEntity="102401">
-<Look Height="-1" Width="-1" XCoordinate="247" YCoordinate="741"/>
+<Look Height="-1" Width="-1" XCoordinate="496" YCoordinate="787"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="51970" MotherDiagram="2051" WrappedEntity="51713">
 <Look Height="-1" Width="-1" XCoordinate="278" YCoordinate="195"/>
@@ -385,7 +385,7 @@
 <Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="280"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="45826" MotherDiagram="1283" WrappedEntity="45313">
-<Look Height="-1" Width="-1" XCoordinate="535" YCoordinate="783"/>
+<Look Height="-1" Width="-1" XCoordinate="1099" YCoordinate="793"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="45058" MotherDiagram="515" WrappedEntity="44801">
 <Look Height="-1" Width="-1" XCoordinate="706" YCoordinate="663"/>
@@ -412,7 +412,7 @@
 <Look Height="-1" Width="-1" XCoordinate="759" YCoordinate="548"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="36610" MotherDiagram="1283" WrappedEntity="35841">
-<Look Height="-1" Width="-1" XCoordinate="733" YCoordinate="679"/>
+<Look Height="-1" Width="-1" XCoordinate="739" YCoordinate="727"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="35074" MotherDiagram="515" WrappedEntity="34305">
 <Look Height="-1" Width="-1" XCoordinate="1899" YCoordinate="454"/>
@@ -421,7 +421,7 @@
 <Look Height="-1" Width="-1" XCoordinate="1521" YCoordinate="357"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="29698" MotherDiagram="1283" WrappedEntity="29185">
-<Look Height="-1" Width="-1" XCoordinate="455" YCoordinate="691"/>
+<Look Height="-1" Width="-1" XCoordinate="461" YCoordinate="739"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="76802" MotherDiagram="37635" WrappedEntity="31489">
 <Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="220"/>
@@ -567,6 +567,9 @@
 <EntityCell IMemento.internal.id="25346" MotherDiagram="1283" WrappedEntity="24833">
 <Look Height="-1" Width="-1" XCoordinate="227" YCoordinate="409"/>
 </EntityCell>
+<EntityCell IMemento.internal.id="121090" MotherDiagram="1283" WrappedEntity="120833">
+<Look Height="-1" Width="-1" XCoordinate="773" YCoordinate="666"/>
+</EntityCell>
 <EntityCell IMemento.internal.id="23042" MotherDiagram="1795" WrappedEntity="22785">
 <Look Height="-1" Width="-1" XCoordinate="214" YCoordinate="641"/>
 </EntityCell>
@@ -655,6 +658,7 @@
 </Protocol>
 <Actor EntityName="pluviometro" IMemento.internal.id="2561"/>
 <Actor EntityName="Usuario" IMemento.internal.id="17665"/>
+<Protocol EntityName="recomendar" IMemento.internal.id="120833"/>
 <Agent EntityName="Agente automatizador" IMemento.internal.id="72193"/>
 <Percept EntityName="Preferencias" IMemento.internal.id="102401"/>
 <Actor EntityName="Radar Perfilador de Vientos" IMemento.internal.id="5121"/>
