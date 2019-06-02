@@ -44,11 +44,26 @@ start verificacion datos
 actor AC1 Analista
 
 agent AG1 Agente analitico
+agent AG2 Agente facilitador
+agent AG3 Agente recomendador
 
 percept AC1 AG1 Ajuste
-action mensaje ajuste OK
+action AG1 AC1 mensaje ajuste OK
 
 message AG1 AG2 Datos verificados
+message AG1 AG3 Datos verificados
+
+
+finish
+
+start recomendar
+
+actor AC1 usuario
+
+agent AG1 Agente recomendador
+
+percept Preferencias
+action entregar recomendaciones
 
 finish
 
