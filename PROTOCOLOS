@@ -1,10 +1,10 @@
 start recepcion - confirmacion de datos
 
 actor AC1 pluviometro
-actor AC2 piranometro
-actor AC3 campo electrico
-actor AC4 radar perfilador de vientos
-actor AC5 ceilometro
+actor AC2 Piranometro
+actor AC3 Campo Electrico
+actor AC4 Radar Perfilador de Vientos
+actor AC5 Ceilometro
 
 
 agent AG1 Agente receptor de datos
@@ -14,7 +14,7 @@ box loop
 	percept AC2 AG1 radiacion solar
 	percept AC3 AG1 actividad de rayos
 	percept AC4 AG1 velocidad de vientos
-	percept AC5 AG1 concentracion de aerosoles en la atmosfera
+	percept AC5 AG1 concentracion de aerosoles en la troposfera
 	action AG1 AC5 confirmacion de recepcion
 end loop
 finish
