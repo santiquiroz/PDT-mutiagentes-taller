@@ -39,6 +39,7 @@ action AG1 AC2 entregar datos organizacion
 finish
 
 
+
 start verificacion datos
 
 actor AC1 Analista
@@ -65,4 +66,5 @@ percept AC1 AG1 Preferencias
 action AG1 AC1 entregar recomendaciones
 
 finish
+
 
