@@ -37,6 +37,7 @@
 <Relation DST="91905" IMemento.internal.id="109061" Message="9217" Prominence="1" RelationType="1073741836" SRC="3585"/>
 <Relation DST="43521" IMemento.internal.id="58885" Prominence="0" RelationType="1073741829" SRC="55809"/>
 <Relation DST="21761" IMemento.internal.id="57349" Prominence="0" RelationType="1073741829" SRC="55809"/>
+<Relation DST="45313" IMemento.internal.id="154629" Prominence="0" RelationType="-2147483648" SRC="154113"/>
 <Relation DST="42497" IMemento.internal.id="153093" Prominence="0" RelationType="1073741833" SRC="151297"/>
 <Relation DST="29185" IMemento.internal.id="152325" Prominence="0" RelationType="-2147483648" SRC="151297"/>
 <Relation DST="12289" IMemento.internal.id="54277" Prominence="0" RelationType="1073741829" SRC="51713"/>
@@ -91,6 +92,8 @@
 <Relation DST="9217" IMemento.internal.id="109317" Prominence="0" RelationType="1073741837" SRC="3585"/>
 <Relation DST="91905" IMemento.internal.id="108549" Message="7425" Prominence="1" RelationType="1073741836" SRC="2561"/>
 <Relation DST="105217" IMemento.internal.id="107781" Prominence="0" RelationType="-2147483648" SRC="35841"/>
+<Relation DST="6145" IMemento.internal.id="156421" Prominence="0" RelationType="1073741833" SRC="154113"/>
+<Relation DST="154113" IMemento.internal.id="155653" Prominence="0" RelationType="-2147483648" SRC="68097"/>
 <Relation DST="35841" IMemento.internal.id="106245" Prominence="0" RelationType="-2147483648" SRC="105217"/>
 <Relation DST="18177" IMemento.internal.id="56837" Prominence="0" RelationType="1073741829" SRC="55809"/>
 <Relation DST="35841" IMemento.internal.id="104709" Prominence="0" RelationType="-2147483648" SRC="102401"/>
@@ -238,6 +241,7 @@
 <Connection ConnectionType="536870913" DST="36610" IMemento.internal.id="107012" MotherDiagram="1283" SRC="106754"/>
 <Connection ConnectionType="536870914" DST="7170" IMemento.internal.id="8964" MotherDiagram="515" SRC="8194"/>
 <Connection ConnectionType="-2147483648" DST="22018" IMemento.internal.id="57604" MotherDiagram="1795" SRC="56578"/>
+<Connection ConnectionType="-2147483648" DST="78850" IMemento.internal.id="154884" MotherDiagram="72451" SRC="154370"/>
 <Connection ConnectionType="-2147483648" DST="152834" IMemento.internal.id="153348" MotherDiagram="36099" SRC="151554"/>
 <Connection ConnectionType="-2147483648" DST="12546" IMemento.internal.id="54532" MotherDiagram="1795" SRC="52482"/>
 <Connection ConnectionType="-2147483648" DST="99074" IMemento.internal.id="152580" MotherDiagram="36099" SRC="151554"/>
@@ -287,6 +291,8 @@
 <Connection ConnectionType="536870913" DST="92418" IMemento.internal.id="111876" MotherDiagram="1283" SRC="100098"/>
 <Connection ConnectionType="-2147483648" DST="15618" IMemento.internal.id="61700" MotherDiagram="1795" SRC="52482"/>
 <Connection ConnectionType="536870913" DST="106754" IMemento.internal.id="108036" MotherDiagram="1283" SRC="36610"/>
+<Connection ConnectionType="-2147483648" DST="156162" IMemento.internal.id="156676" MotherDiagram="72451" SRC="154370"/>
+<Connection ConnectionType="-2147483648" DST="154370" IMemento.internal.id="155908" MotherDiagram="72451" SRC="80130"/>
 <Connection ConnectionType="536870914" DST="8194" IMemento.internal.id="8452" MotherDiagram="515" SRC="3074"/>
 <Connection ConnectionType="-2147483648" DST="18434" IMemento.internal.id="57092" MotherDiagram="1795" SRC="56578"/>
 <Connection ConnectionType="536870913" DST="36610" IMemento.internal.id="104964" MotherDiagram="1283" SRC="102914"/>
@@ -392,7 +398,7 @@
 <Look Height="-1" Width="-1" XCoordinate="628" YCoordinate="171"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="78850" MotherDiagram="72451" WrappedEntity="45313">
-<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+<Look Height="-1" Width="-1" XCoordinate="202" YCoordinate="177"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="29442" MotherDiagram="1795" WrappedEntity="29185">
 <Look Height="-1" Width="-1" XCoordinate="503" YCoordinate="497"/>
@@ -456,6 +462,9 @@
 </EntityCell>
 <EntityCell IMemento.internal.id="9474" MotherDiagram="1795" WrappedEntity="9217">
 <Look Height="-1" Width="-1" XCoordinate="-47" YCoordinate="182"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="156162" MotherDiagram="72451" WrappedEntity="6145">
+<Look Height="-1" Width="-1" XCoordinate="260" YCoordinate="300"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="106754" MotherDiagram="1283" WrappedEntity="105217">
 <Look Height="-1" Width="-1" XCoordinate="232" YCoordinate="599"/>
@@ -686,7 +695,7 @@
 <Look Height="-1" Width="-1" XCoordinate="287" YCoordinate="154"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="80130" MotherDiagram="72451" WrappedEntity="68097">
-<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+<Look Height="-1" Width="-1" XCoordinate="492" YCoordinate="169"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="29954" MotherDiagram="515" WrappedEntity="29185">
 <Look Height="-1" Width="-1" XCoordinate="1132" YCoordinate="49"/>
@@ -753,6 +762,9 @@
 </EntityCell>
 <EntityCell IMemento.internal.id="7682" MotherDiagram="1795" WrappedEntity="7425">
 <Look Height="-1" Width="-1" XCoordinate="-10" YCoordinate="103"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="154370" MotherDiagram="72451" WrappedEntity="154113">
+<Look Height="-1" Width="-1" XCoordinate="272" YCoordinate="102"/>
 </EntityCell>
 <EntityCell IMemento.internal.id="56322" MotherDiagram="2307" WrappedEntity="55809">
 <Look Height="-1" Width="-1" XCoordinate="106" YCoordinate="161"/>
@@ -858,6 +870,7 @@
 <Agent EntityName="Agente recomendador : AG3" IMemento.internal.id="35841"/>
 <Plan EntityName="Procesar preferencias de usuario" IMemento.internal.id="148225" Owner="Agente recomendador : AG3" OwnerId="35841"/>
 <Role EntityName="Recomendar" IMemento.internal.id="66049"/>
+<Plan EntityName="Procesar datos de automatizacion" IMemento.internal.id="154113" Owner="Agente automatizador" OwnerId="72193"/>
 <Plan EntityName="Procesar entrega de datos" IMemento.internal.id="126465" Owner="Agente facilitador : AG2" OwnerId="82689"/>
 <Action EntityName="entregar recomendaciones" IMemento.internal.id="29185"/>
 <Role EntityName="comparar datos" IMemento.internal.id="59393"/>
